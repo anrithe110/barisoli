@@ -1,0 +1,213 @@
+#title {
+  background-color: #655DBB;
+
+}
+
+@font-face {
+  font-family: "bpg";
+  src: url("fonts/BPG_110_Mod_Caps.ttf");
+}
+@font-face {
+  font-family: "meore";
+  src: url("fonts/BPG_2018_DVSW.ttf");
+}
+
+
+
+
+
+.container-fluid {
+  padding: 3% 15% 3% !important;
+}
+
+.navbar {
+  padding: 0 0 4.5rem !important;
+}
+
+h1 {
+  font-family: "bpg";
+  line-height: 1.5 !important;
+  font-size: 3.5rem !important;
+  color: #fff !important;
+}
+
+
+
+h2 {
+  font-family: "bpg";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff !important;
+}
+
+h3 {
+  font-family: "bpg";
+  font-size: 1.5rem;
+}
+
+.testimonial-image {
+  border-radius: 5%;
+  width: 60%;
+}
+
+.carousel-item {
+  padding: 3% 7%;
+}
+
+.navbar-brand {
+  font-family: "meore";
+  font-size: 2.5rem !important;
+  color: #fff !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+  ;
+}
+
+.tel {
+  font-family: "bpg";
+  color: #fff !important;
+  font-size: 1rem !important;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.nav-link {
+
+  color: #fff !important
+}
+
+.button {
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+  width: 70%;
+  border-radius: 50%;
+  top: 20%;
+  left: 50%;
+}
+
+
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffff;
+  position: relative;
+
+
+
+}
+
+.feature-title {
+    font-size: 1.79rem;
+  }
+  
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.our {
+  font-size: 2rem !important;
+  padding-top: 25px;
+  margin: 0;
+  color: #655DBB !important;
+}
+
+
+
+.fas {
+  margin-bottom: 20px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #BFACE2;
+  color: white;
+}
+
+.icon-a {
+  color: #08004e;
+}
+
+.icon-b {
+  color: #301E67;
+}
+
+.icon-c {
+  color: #A4BE7B;
+}
+
+.icon-d {
+  color: pink;
+}
+
+.icon-r {
+  color: #deb887;
+}
+
+.icon-q {
+  color: #FFC300;
+}
+
+
+.stuff {
+  font-family: 'BPG_110_Mod_Caps' !important;
+  text-align: center !important;
+  font-size: 1.5rem !important;
+}
+
+#pricing {
+  padding: 100px !important;
+}
+
+p {
+font-size: 1rem;
+font-family: "bpg";
+}
+
+.row {
+  text-align: center !important;
+}
+
+.prise-collum {
+  padding: 3% 2%;
+}
+
+@media (max-width:992px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg) !important;
+    width: 40% !important;
+  }
+}
+
+#cta {
+  background-color: #655DBB;
+}
+
+
+.find {
+  font-size: 150%;
+  color: #fff;
+  padding: 10%;
+}
+
+.Copyright {
+  text-align: center;
+}
+
+.link{
+  color: #824cff !important;
+  padding: 10px;
+}
+.con{margin-top: 20px;}
+.link-link {
+  margin: 20px;
+  text-align: center !important;
+}
+.nox{color: rgb(11, 134, 0);}
