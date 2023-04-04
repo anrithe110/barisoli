@@ -2,18 +2,137 @@
   background-color: #655DBB;
 
 }
+ul{
+  list-style-type: none;
+}
+.calculator {
+  text-align: center;
+  max-width: 400px !important;
+  background: rgb(85, 0, 243);
+  box-sizing: border-box;
+  padding: 15px;
+  padding-bottom: 10px;
+   }
+  .calculator h2 {
+    text-align: center;
+    margin: 0 0 20px; }
+  .calculator .slider {
+    float: left;
+    position: relative; }
+    .calculator .slider input {
+      margin: 0;
+      padding: 5px;
+      border-radius: 4px;
+      border: 0;
+      float: left;
+      width: 40px;
+      font-size: 12px;
+      text-align: center; }
+  .calculator .horizontal {
+    margin-left: 51px;
+    margin-top: 8px; }
+  .calculator .area {
+    float: left;
+    position: relative;
+    width: 340px;
+    height: 240px;
+    margin-left: 35px; }
+    .calculator .area .area-result {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #fff;
+      box-sizing: border-box;
+      float: left;
+      position: relative;
+      margin-top: 30px; }
+      .calculator .area .area-result p {
+        padding: 24px;
+        font-size: 38px;
+        color: #fff;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        box-sizing: border-box;
+        transform: translateY(-50%);
+        z-index: 30; }
+        .calculator .area .area-result p span {
+          font-size: 18px; }
+
+    .calculator li {
+      float: left;
+      width: 300px;
+      box-sizing: border-box;
+      padding: 2px; }
+    .calculator li.main label {
+      color: #FFFFFF; }
+    .calculator li.cl-line {
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      margin-top: 15px;
+      margin-bottom: 5px; }
+    .calculator label {
+      float: left;
+      margin-top: 5px;
+      font-family: "bpg";
+      color: #e4e3e3; }
+     .calculator input[type=number] {
+      margin: 0;
+      float: right;
+      border: 0;
+      border-radius: 4px;
+      padding: 5px;
+      font-size: 13px;
+      width: 60px;
+      text-align: center; }
+    .calculator input[type=checkbox] {
+      cursor: pointer;
+      float: right;
+      margin-right: 28px;
+      margin-top: 7px; }
+    .calculator li.cant {
+      border: 0; }
+    .calculator li.cant label {
+        margin-top: 3px; }
+  .calculator li.total {
+      border: 0;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.3);
+      margin-top: 5px;
+      height: 40px; }
+     .calculator li.total label {
+        margin: 0;
+        font-size: 16px;
+        font-family: "bpg";
+        line-height: 25px;
+       }
+     .calculator li.total p {
+        font-size: 24px;
+        text-align: right;
+        padding-right: 0px;
+        height: 0px;
+        line-height: 1px; }
+
+
+
 
 @font-face {
   font-family: "bpg";
-  src: url("BPG_110_Mod_Caps.ttf");
+  src: url("fonts/BPG_110_Mod_Caps.ttf");
 }
 @font-face {
   font-family: "meore";
-  src: url("BPG_2018_DVSW.ttf");
+  src: url("fonts/BPG_2018_DVSW.ttf");
 }
+.calculator{
+  list-style-type: none;
+  color: #fff!important;
 
-
-
+}
+p.prise{
+  font-size: 1rem !important;
+}
 
 
 .container-fluid {
@@ -69,7 +188,7 @@ h3 {
   font-family: "bpg";
   color: #fff !important;
   font-size: 1rem !important;
-  margin-top: 10px;
+  margin-top: 10px!important;
   margin-bottom: 0px;
 }
 
@@ -83,6 +202,7 @@ h3 {
 }
 
 .title-image {
+  opacity:0;
   width: 70%;
   border-radius: 50%;
   top: 20%;
@@ -154,7 +274,6 @@ h3 {
   color: #FFC300;
 }
 
-
 .stuff {
   font-family: 'BPG_110_Mod_Caps' !important;
   text-align: center !important;
@@ -166,6 +285,7 @@ h3 {
 }
 
 p {
+margin-top: 1rem!important;
 font-size: 1rem;
 font-family: "bpg";
 }
