@@ -119,11 +119,11 @@ ul{
 
 @font-face {
   font-family: "bpg";
-  src: url("fonts/BPG_110_Mod_Caps.ttf");
+  src: url("BPG_110_Mod_Caps.ttf");
 }
 @font-face {
   font-family: "meore";
-  src: url("fonts/BPG_2018_DVSW.ttf");
+  src: url("BPG_2018_DVSW.ttf");
 }
 .calculator{
   list-style-type: none;
